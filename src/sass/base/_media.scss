@@ -1,0 +1,230 @@
+@media (max-width: 991px) {
+  .promo {
+    .header {
+      justify-content: space-around;
+    }
+    &__wrapper {
+      padding-right: 35px;
+    }
+  }
+  .advantages {
+    &__text {
+      width: 220px;
+    }
+  }
+  .consultation {
+    .container {
+      padding-left: 50px;
+    }
+    .title {
+      font-size: 30px;
+    }
+    .text {
+      font-size: 18px;
+    }
+  }
+  .carousel {
+    padding: 60px 0 80px;
+    .carousel__inner .slick-prev,
+    .carousel__inner .slick-next {
+      bottom: -67%;
+      z-index: 2;
+      background-color: transparent;
+      outline: none;
+    }
+    .carousel__inner .slick-prev {
+      left: 50px;
+    }
+    .carousel__inner .slick-next {
+      right: 50px;
+    }
+  }
+  section.catalog {
+    padding-bottom: 80px;
+    .catalog__content {
+      justify-content: center;
+    }
+    .catalog-item {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .catalog__tabs {
+      margin-top: 40px;
+    }
+    .catalog__tab {
+      width: 190px;
+    }
+  }
+  section.reviews {
+    padding-bottom: 60px;
+    .reviews__item {
+      margin-top: 40px;
+      padding-left: 40px;
+      align-items: center;
+    }
+    .reviews__descr {
+      font-size: 14px;
+    }
+  }
+  footer.footer {
+    .footer__info {
+      width: 350px;
+      height: 230px;
+      padding: 35px 50px 50px 50px;
+    }
+    .footer__addr {
+      font-size: 18px;
+      margin: 0 0 22px;
+    }
+    .footer__phone {
+      font-size: 18px;
+      margin-bottom: 22px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 25px;
+  }
+  section.promo {
+    min-height: 60px;
+    .header__logo {
+      width: 200px;
+    }
+    .header__official {
+      font-size: 12px;
+      span {
+        font-size: 16px;
+      }
+    }
+    .promo__wrapper {
+      margin-top: 50px;
+      padding-right: 20px;
+    }
+    .promo__header {
+      font-size: 36px;
+    }
+    .promo__subheader {
+      font-size: 19px;
+      margin-top: 10px;
+    }
+    .promo__icons {
+      width: 350px;
+    }
+  }
+  section.advantages {
+    padding: 50px 30px;
+    min-height: 440px;
+    .title {
+      font-size: 25px;
+    }
+    .advantages__item {
+      margin-top: 20px;
+    }
+    .advantages__header {
+      margin-top: 20px;
+      font-size: 15px;
+    }
+    .advantages__text {
+      margin-top: 0px;
+      font-size: 13px;
+      width: 180px;
+    }
+  }
+  section.consultation {
+    min-height: 550px;
+    padding: 50px 0;
+    .title {
+      font-size: 24px;
+    }
+    .consultation__text {
+      font-size: 16px;
+    }
+    label.error {
+      font-size: 12px;
+    }
+    input.error {
+      height: 45px;
+    }
+    .feed-form {
+      width: 250px;
+    }
+    .button_submit {
+      height: 45px;
+      font-size: 14px;
+    }
+  }
+  section.carousel {
+    padding: 30px 0 15px;
+    .slick-slide img {
+      width: 600px;
+      outline: none;
+    }
+    .carousel__inner {
+      width: 600px;
+      outline: none;
+    }
+  }
+  section.catalog {
+    padding-bottom: 30px;
+    .catalog__tabs {
+      margin-top: 30px;
+    }
+    .catalog__tab {
+      width: 140px;
+      font-size: 13px;
+      height: 40px;
+      line-height: 38px;
+    }
+    .catalog-item__text {
+      font-size: 13px;
+    }
+    .catalog__content {
+      margin-top: 30px;
+    }
+    .catalog-item {
+      width: 267px;
+    }
+    .catalog-item__old-price {
+      font-size: 12px;
+    }
+    .catalog-item__price {
+      font-size: 18px;
+    }
+    .button_mini {
+      width: 115px;
+      height: 35px;
+    }
+  }
+  section.reviews {
+    padding-bottom: 50px;
+    .reviews__item {
+      margin-top: 30px;
+      padding-left: 30px;
+    }
+    .reviews__img {
+      width: 140px;
+      height: 140px;
+    }
+
+    .reviews__text {
+      margin-left: 30px;
+      padding-right: 30px;
+    }
+  }
+  footer.footer {
+    .footer__info {
+      width: 300px;
+      height: 170px;
+      padding: 20px;
+    }
+    .footer__addr {
+      font-size: 15px;
+      margin: 0 0 22px;
+    }
+    .footer__phone {
+      font-size: 15px;
+      margin-bottom: 22px;
+    }
+  }
+}
